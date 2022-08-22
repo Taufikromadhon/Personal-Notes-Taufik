@@ -1,0 +1,39 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "airbnb"
+    ],
+    "overrides": [
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "linebreak-style":"off",
+    "react/jsx-filename-extension": "off",
+    "react/prop-types": "off",
+    "react/destructuring-assignment": "off",
+    "jsx-quotes":"off",
+    "react/button-has-type": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/no-access-state-in-setstate": "off",
+    "no-console":"off",
+    "no-trailing-spaces": "off",
+    "operator-linebreak": "off",
+    "implicit-arrow-linebreak": "off",
+    "max-len":"off",
+    "no-unused-vars":"off",
+    "arrow-body-style":"off",
+    "no-confusing-arrow":"off"
+    }
+}
